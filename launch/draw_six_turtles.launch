@@ -1,0 +1,38 @@
+<launch>
+  <!-- Node untuk turtlesim pertama -->
+  <group ns="turtle1">
+    <node name="sim" pkg="turtlesim" type="turtlesim_node" output="screen" />
+    <node name="draw_square" pkg="turtlesim_draw" type="draw_square.py" output="screen" />
+  </group>
+
+  <!-- Node untuk turtlesim kedua -->
+  <group ns="turtle2">
+    <node name="sim" pkg="turtlesim" type="turtlesim_node" output="screen" />
+    <node name="draw_square" pkg="turtlesim_draw" type="draw_square.py" output="screen" />
+  </group>
+
+  <!-- Node untuk turtlesim ketiga -->
+  <group ns="turtle3">
+    <node name="sim" pkg="turtlesim" type="turtlesim_node" output="screen" />
+    <node name="draw_square" pkg="turtlesim_draw" type="draw_square.py" output="screen" />
+  </group>
+
+  <!-- Node untuk turtlesim keempat -->
+  <group ns="turtle4">
+    <node name="sim" pkg="turtlesim" type="turtlesim_node" output="screen" />
+    <node name="draw_square" pkg="turtlesim_draw" type="draw_square.py" output="screen" />
+  </group>
+
+  <!-- Node untuk turtlesim kelima -->
+  <group ns="turtle5">
+    <node name="sim" pkg="turtlesim" type="turtlesim_node" output="screen" />
+    <node name="draw_square" pkg="turtlesim_draw" type="draw_square.py" output="screen" />
+  </group>
+
+  <!-- Node untuk turtlesim keenam -->
+  <group ns="turtle6">
+    <node name="sim" pkg="turtlesim" type="turtlesim_node" output="screen" />
+    <node name="draw_square" pkg="turtlesim_draw" type="draw_square.py" output="screen" />
+  </group>
+</launch>
+
